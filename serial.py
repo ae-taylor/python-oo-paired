@@ -1,6 +1,6 @@
 class SerialGenerator:
     """Machine to create unique incrementing serial numbers.
-    
+
     >>> serial = SerialGenerator(start=100)
 
     >>> serial.generate()
@@ -30,7 +30,4 @@ class SerialGenerator:
 
     # Resets the counter back to initial start point
     def reset(self):
-        self.counter = self.start -1
-
-
-        
+        self.counter = self.start - 1
